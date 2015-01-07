@@ -1,0 +1,13 @@
+# Site settings
+title: Pi
+email: support@telescopestudios.com
+description: > 
+  Pi from Telescope Studios
+  Manage your products, images and other catalogue and website data with ease.  
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://pihq.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+destination: ../public
+keep_files: robots.txt, favcon.ico

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <header data-bind="if: sessionToken">
+      {% include header.html %}
+    </header>
+
+    <section id="login" data-bind="ifnot: sessionToken">
+      {% include login.html %}
+    </section>
+
+    <section id="main" data-bind="if: sessionToken">
+      {{ content }}
+    </section>
+
+    {% include footer.html %}
+  </body>
+</html>
+
