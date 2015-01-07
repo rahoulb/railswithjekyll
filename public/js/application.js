@@ -5,6 +5,9 @@
     function ViewModel() {
       this.loading = ko.observable(false);
       this.sessionToken = ko.observable(null);
+      this.currentUser = ko.observable({
+        isAdmin: true
+      });
     }
 
     return ViewModel;
