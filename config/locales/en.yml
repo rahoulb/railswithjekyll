@@ -1,0 +1,9 @@
+en:
+  login: 
+    please_login_to_continue: 'Please log in to continue'
+    login: 'Log in'
+  navbar: 
+    account: 'Account'
+    toggle_navigation: 'Show menu'
+    logout: 'Log out'
+    pi_v3: 'Pi version 3'
